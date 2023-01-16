@@ -1,9 +1,11 @@
 <script>
     import "../app.css"
     let open = false;
-    let toggle = () => {open = !open;console.log(open)}
-    import {clickOutside} from "../click_outside.js"
+    let toggle = () => {open = !open;console.log(open)};
+    import {clickOutside} from "../click_outside.js";
+    
 </script>
+
 
 <body class="bg-gray-900">
     
@@ -11,7 +13,7 @@
 
 
 
-<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+<nav data-aos="zoom-out" class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <a href="/" class="flex items-center">
           <img src="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png" class="h-14 inline transition md:hover:scale-150 " alt="Flowbite Logo" />
@@ -40,7 +42,7 @@
   </nav>
 
   {#if open===true }
-  <div class="absolute rounded-lg shadow-md right-10 top-10 margin-1 border shadow-primary-700  bg-gray-900 border-primary-700 text-white margin-auto" use:clickOutside on:outclick={toggle} on:click={toggle}>
+  <div class="absolute z-50 rounded-lg shadow-md right-10 top-10 margin-1 border shadow-primary-700  bg-gray-900 border-primary-700 text-white margin-auto" use:clickOutside on:outclick={toggle} on:click={toggle}>
 <div class="flex flex-col gap-1 justify-center content-center  text-2xl">
     <div class="mb-2 hover:text-white text-primary-500 p-5"><a href="/prof">To profesors</a></div>
     <div class="mb-2 hover:text-white text-primary-500 p-5"><a href="/admin">To administration</a></div>
