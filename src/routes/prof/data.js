@@ -1,8 +1,21 @@
 export const posts = [
 	{
-		slug: 'welcome',
+		slug: 'supply',
+		title: 'Request for Supplementary Exam',
+		subject:'I was unable to attend the [Exam Name] on [Exam Date]',
+		content: 'Dear Professor [Name],'+
+
+		'\n\nI hope this email finds you well. I am writing to inform you that I was unable to attend the [Exam Name] on [Exam Date] due to [specific reason for absence]. I understand the importance of this exam and I would greatly appreciate the opportunity to make it up.'+
+		
+		'\nI assure you that I have been keeping up with the course material and I am fully prepared to take the exam. I would be happy to schedule a time that is convenient for you to administer the make-up exam.'+
+		
+		'\n\nThank you for your understanding and support.\n\nSincerely,\n[Your Name]'
+	},
+
+	{
+		slug: 'ass',
 		title: 'Request for Extension on [Assignment Name]',
-		subject: 'Request for extension on an assignment',
+		subject: 'extension on the [Assignment Name] that is currently due on [Due Date]',
 		content:
 			'Dear Professor [Name],'+
 
@@ -18,17 +31,22 @@ export const posts = [
 	},
 
 	{
-		slug: 'time',
-		title: 'Scheduling an office hour',
-		subject:'Request for office hours ',
-		content:
-			'Dear Prof.Reang, \nMy name is ______. I am a third-year undergraduate student studying EE. I am writing to you to know about your availability this Friday. I am enrolled in your course ____, and did not quite understand the part where you explained about something in the last lecture. I was wondering if it would be possible to come to your office during the office hours and get the doubt clarified. \n\nI would be grateful to you if you can explain the concept to me once again.Thank you. I look forward to hearing from you.\nSincerely, \n{roll no and branch}'
+		slug: 'meet',
+		title: 'Request to Schedule a Meeting',
+		subject:'request a meeting with you to discuss [specific topic]',
+		content: 'Dear Professor [Name],'+
+
+		'\n\nI hope this email finds you well. I am writing to request a meeting with you to discuss [specific topic]. I am currently having some difficulties with [specific aspect of the course] and I would greatly appreciate your guidance and advice.'+
+		
+		'\nI am available to meet at your convenience and I would be happy to schedule a time that works best for you. Please let me know the best time and location for us to meet, and I will make sure to be there.'+
+		
+		'\n\nThank you for your time and support.\n\nSincerely,\n[Your Name]'
 	},
 
 	{
 		slug: 'rgrade',
 		title: 'Request for Excused Absences Due to Medical Reasons',
-		subject:'Letter for medical application',
+		subject:'been under the care of a physician and have been ',
 		content: 'Dear Professor [Name],'+
 
 		'\nI am writing to inform you that I have been experiencing [specific medical condition] that has prevented me from attending class regularly. I have been under the care of a physician and have been following their treatment plan, but it has resulted in a number of absences from class.'+
@@ -44,7 +62,7 @@ export const posts = [
 	{
 		slug: 'recomm',
 		title: 'Request for a letter of recommendation',
-		subject:'Request for a Letter of Recommendation',
+		subject:'your assistance in obtaining a letter of recommendation. I am applying for [specific program or job]',
 		content: 'Dear Professor [Name],\n\nI hope this email finds you well. I am writing to request your assistance in obtaining a letter of recommendation. I am applying for [specific program or job] and I would greatly appreciate your support.'+
 		
 		'I had the pleasure of taking your class [class name and semester] and I believe that your assessment of my abilities and performance would be highly valuable to the selection committee.'+
