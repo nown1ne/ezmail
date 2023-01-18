@@ -2,12 +2,12 @@
     export let data;
 </script>
 
-<div class="h-screen sm:mt-20 mt-16 ">
-    <grid class="grid sm:grid-cols-3 grid-cols-1 gap-5 md:gap-8 content-start auto-cols-auto auto-rows-auto justify-center p-4 h-screen">
+<div class="min-h-screen sm:mt-16 mt-5 ">
+    <grid class="grid sm:grid-cols-3 grid-cols-1 gap-5 md:gap-8 content-start auto-cols-auto auto-rows-auto justify-center p-4 ">
         {#each data.summaries as {slug, title, subject}}
         <div class="w-5/6 shadow-sm shadow-primary-500  p-6 mx-auto border  rounded-lg  bg-gray-800 border-gray-700">
             <a href="/prof/{slug}">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">{title}</h5>
             </a>
             <p class="mb-3 font-normal text-gray-400 truncate">{subject}</p>
             <a href="/prof/{slug}" class="inline-flex  items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg  focus:ring-4 focus:outline-none  bg-primary-700 hover:bg-primary-500 focus:ring-primary-800">
