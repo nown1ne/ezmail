@@ -13,5 +13,8 @@ border-color: white;
 outline-width: 5px;
 outline-color: rgb(79 70 229);
     }
+    .scroll::-webkit-scrollbar {
+        display: none;
+    }
 }
 
