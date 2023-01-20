@@ -76,7 +76,7 @@
                       
                 </div>
                 <h3 class="mb-2 text-xl font-bold text-white">Easy to use</h3>
-                <p class="text-gray-400">Our website minimises the time taken to send emails by providing the ability to edit and send emails directly.Its mobile responsive</p>
+                <p class="text-gray-400">Our website minimises the time taken to send emails by providing the ability to edit and send emails directly.</p>
             </div>
         </div>
     </div>
