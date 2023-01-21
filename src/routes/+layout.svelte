@@ -3,7 +3,9 @@
     let open = false;
     let toggle = () => {open = !open;console.log(open)};
     import {clickOutside} from "../click_outside.js";
-    
+  import Trans from "../components/trans.svelte";
+  import {fade} from "svelte/transition"
+   import {page} from   '$app/stores'
 </script>
 
 
@@ -42,20 +44,22 @@
   </nav>
 
   {#if open===true }
-  <div class="absolute z-50 rounded-lg shadow-md right-10 top-10 margin-1 border shadow-primary-700  bg-gray-900 border-primary-700 text-white margin-auto" use:clickOutside on:outclick={toggle} on:click={toggle}>
-<div class="flex flex-col gap-1 justify-center content-center  text-2xl">
+  <div transition:fade class="absolute z-50 rounded-lg shadow-md right-10 top-10 margin-1 border shadow-primary-700  bg-gray-900 border-primary-700 text-white margin-auto" use:clickOutside on:outclick={toggle} on:click={toggle}>
+  <div class="flex flex-col gap-1 justify-center content-center  text-2xl">
     <div class="mb-2 hover:text-white text-primary-500 p-5"><a href="/prof">To profesors</a></div>
     <div class="mb-2 hover:text-white text-primary-500 p-5"><a href="/admin">To administration</a></div>
     <div class="mb-2 hover:text-white text-primary-500 p-5"><a href="/others">To Alumni </a></div>
     <div class="mb-1 hover:text-white text-primary-500 p-5"><a href="/about">about</a></div>
 </div>
 </div>
-  
-
-  
   {/if}
 
-<slot/>
+  <Trans url={$page.url}>
+    <slot/>
+  </Trans>
+
+  
+
 
 <footer class="mt-5 p-8 rounded-lg shadow md:px-6 md:py-8 bg-gray-900">
     <div class="sm:flex sm:items-center sm:justify-between">

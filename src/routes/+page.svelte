@@ -1,4 +1,32 @@
+<script>
+    import Saos from "saos";
+</script>
+<style>
+    @keyframes -global-fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
+  @keyframes -global-slide-out-fwd-center {
+    0% {
+      transform: translateZ(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateZ(600px);
+      opacity: 0;
+    }
+  }
+</style>
+
+<Saos  once = {true} animation={'fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
+animation_out={'slide-out-fwd-center 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
+top={250}
+bottom={250}>
 <section class="bg-gray-900">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
@@ -15,6 +43,12 @@
         </div>                
     </div>
 </section>
+</Saos>
+
+<Saos once={true} animation={'fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
+animation_out={'slide-out-fwd-center 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
+top={250}
+bottom={250}>
 <section class="bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="max-w-screen-md mb-8 lg:mb-16">
@@ -81,7 +115,12 @@
         </div>
     </div>
   </section>
+</Saos>
 
+  <Saos animation={'fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'}
+  animation_out={'slide-out-fwd-center 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}
+  top={250}
+  bottom={250}>
   <section class="bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
         <div class="mx-auto mb-8 max-w-screen-md lg:mb-16">
@@ -136,3 +175,4 @@
         </div>  
     </div>
   </section>
+</Saos>
