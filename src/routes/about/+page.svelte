@@ -1,3 +1,23 @@
+<script>
+  import TagCloud from 'TagCloud';
+  const container = '.content';
+  import { onMount } from 'svelte';
+const texts = [
+    '3D', 'TagCloud', 'JavaScript',
+    'CSS3', 'TailwindCSS', 'Svelte',
+    'SvelteKit', 'Vercel', 'Git',
+    'Github', 
+];
+const options = {
+    maxSpeed: 'fast'
+};
+
+onMount(() =>{
+    TagCloud(container, texts, options);
+}) 
+</script>
+
+
 <h1 class="text-center mb-4 text-6xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white">About Us</h1>
 <p class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400"></p>
 <p class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400 px-4 block"></p>
@@ -21,23 +41,14 @@
 <h1 class="text-center mb-4 text-6xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white"><span class="text-transparent bg-clip-text bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600">Tech Stack</span></h1>
 
 <div class="px-4 md:px-0">
-<p class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400">We believe that the    key to success in web development is staying up-to-date with the latest technologies and best practices. 
+<p class="mb-2 text-xl font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400">We believe that the    key to success in web development is staying up-to-date with the latest technologies and best practices. 
     Our tech stack is built on a combination of cutting-edge technologies that allow us to create fast, efficient, and user-friendly web applications.Our core tech stack includes:<br><br>
     
-    <br>Front-end:<br>
-    Sveelte.js 
-    Tailwind CSS <br>
-    
-    <br>Back-end:<br>
-    Node.js
-       Svelte Kit
-    <br><br>Deployment:<br>
-    Vercel
-    
-    </p>
+</p>
+<span class="content tagcloud  text-2xl   mx-auto text-purple-600 "></span>
 </div>
 
-    <h1 class="text-center mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-4xl lg:text-4xl text-white"><span class="text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-900 via-purple-900 to-violet-600">Navigating Problems</span></h1>
+    <h1 class="mt-2 text-center mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-4xl lg:text-4xl text-white"><span class="mt-6 text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-900 via-purple-900 to-violet-600">Navigating Problems</span></h1>
    
     <div class="px-4 md:px-0">
     <p class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400 px-4 block">We came across a lot of problems while making our project here are a few notable ones and how we solved them.<br><br>
