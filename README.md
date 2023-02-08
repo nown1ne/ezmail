@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # Ezmail
 
 ## About Ezmail
