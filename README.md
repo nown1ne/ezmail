@@ -184,40 +184,26 @@ npm run dev -- --open
 
 <hr>
 
-<h2 align="center"> Project Maintainers & Admins </h2>
 
-
-
+<h2 align="center"> Project Maintainers & Admins</h2> 
+<div align="center"> 
     <a href="https://github.com/nown1ne">
-
     <img src="https://avatars.githubusercontent.com/u/25835195?v=4" width=100px height=100px />
-
     </a>
-
-    <p align="center"> Abhinav Srinivas</p>
-
-
+    <p align="center"> Abhinav Srinivas </p>
+</div>
 
 <div align="center"> 
-
-    <a href="https://github.com/Aditi-Singh16">
-
-    <img src="https://pbs.twimg.com/profile_images/1507937776511361028/xPkmvqLZ_400x400.jpg" width=100px height=100px />
-
+    <a href="https://github.com/IshaanAdarsh">
+    <img src="https://avatars.githubusercontent.com/u/100434702?v=4" width=100px height=100px />
     </a>
-
-    <p align="center"> Ishan Adarsh</p>
-
+    <p align="center"> Ishaan Adarsh </p>
 </div>
 
 <h2 align="center"> Project Contributors </h2> 
 
 <div align="center">
-
     <a href="https://github.com/nown1ne/ezmail/graphs/contributors">
-
     <img src="https://contrib.rocks/image?repo=nown1ne/ezmail" />
-
     </a>
-
 </div>
