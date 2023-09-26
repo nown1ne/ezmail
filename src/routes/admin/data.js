@@ -23,15 +23,15 @@ export const posts = [
 		title: 'Bring attention to an issue',
 		subject:'writing to express my concern about [issue].',
 		content:
-			'Dear Sir[Mam],'+
+			'Dear Sir/Madam,'+
 
-			'\n\nI am writing to express my concern about [issue]. I believe that [reason for concern]. I would like to request that [specific action or solution to the issue].'+
-			
-			'\nI understand that this is a complex issue and that there may be multiple factors at play. However, I strongly believe that addressing this issue will have a positive impact on [specific group or community affected by the issue].'+
-			
-			'\n\nI would greatly appreciate your attention to this matter and look forward to discussing this further with you.'+
-			
-			'\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]'
+			'\n\nI am writing to express my concern about [the issue]. I believe that [state your reason for concern]. I would like to request that [mention the specific action or solution needed].'+
+
+			'\nI understand that this is a complex issue and that there may be multiple factors at play. However, I strongly believe that addressing this issue will have a positive impact on [the specific group or community affected by the issue].'+
+
+			'\n\nI would greatly appreciate your attention to this matter and look forward to discussing it further with you.'+
+
+			'\n\nThank you for your time and consideration.\n\n\nSincerely,\n[Your Name]'
 	},
 
 	{
@@ -39,7 +39,7 @@ export const posts = [
 		title: 'About a lack of resources or support',
 		subject:'express my concern about the lack of resources',
 		content:
-			'Dear Sir/Mam,'+
+			'Dear Sir/Madam,'+
 
 			'\n\nI am writing to express my concern about the lack of resources and support available on campus for [specific group or issue]. I believe that this is having a negative impact on the academic and personal success of students.'+
 			
@@ -54,7 +54,7 @@ export const posts = [
 		slug: 'prog',
 		title: 'Suggest a new program',
 		subject:'writing to suggest a new program or initiative',
-		content: 'Dear Sir/Mam,'+
+		content: 'Dear Sir/Madam,'+
 
 		'\n\nI am writing to suggest a new program or initiative that I believe would be beneficial for the students and community of [College Name]. The program I am proposing is [name of program or initiative], and it would focus on [specific focus or goal of the program].'+
 		
@@ -90,8 +90,7 @@ export const posts = [
 		subject:'writing to express my dissatisfaction with the',
 		content: 'Dear [Department/College],'+
 
-		"\n\nI am writing to express my dissatisfaction with the instruction and performance of Professor [Professor's name] in the course [course name]. I am concerned that the teaching methods used by the professor are not effective, and that the course material is not being covered adequately.,"+
-		
+		"\n\nI am writing to express my dissatisfaction with the instruction and performance of Professor [Professor's name] in the course [course name]. I am concerned that the teaching methods used by the professor are not effective, and that the course material is not being covered adequately."+
 		'\n\nI have several specific concerns about this course:'+
 		
 		'\n[specific concern 1, such as lack of organization or unclear course objectives]'+
