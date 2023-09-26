@@ -75,7 +75,7 @@
         </p>
       </div>
       <div
-      class="space-y-8 grid grid-cols-3 gap-10 md:space-y-0"
+        class="space-y-8 grid grid-cols-3 gap-10 md:space-y-0"
       >
         <div>
           <div
@@ -241,13 +241,13 @@
           Thank you for choosing our website.Our website is completely open source
           and also open to contributions. Check
           <a
-            href="https://github.com/IshaanAdarsh/ezmail"
+            href="https://github.com/nown1ne/exmail"
             class="underline underline-offset-2">github</a
           > for contribuuting. ☮
         </p>
       </div>
       <div
-      class="grid gap-16 grid-cols-2"
+        class="grid gap-16 grid-cols-2"
       >
         <div class="text-center  text-gray-400">
           <a href="https://linktr.ee/abhinavsrinivas">
@@ -262,7 +262,7 @@
           >
             <a href="https://linktr.ee/abhinavsrinivas">Abhinav Srinivas</a>
           </h3>
-          <p class="text-lg">Lead Developer</p>
+          <p class="text-lg">Technical Lead</p>
           <ul class="flex justify-center mt-4 space-x-4">
             <li class="hover:scale-125 transition">
               <a
@@ -313,7 +313,7 @@
           >
             <a href="http://linktr.ee/IshaanAdarsh">Ishaan Adarsh</a>
           </h3>
-          <p class="text-lg">Technical Manager</p>
+          <p class="text-lg">Design Lead</p>
           <ul class="flex justify-center mt-4 space-x-4">
             <li class="hover:scale-125 transition">
               <a
