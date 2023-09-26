@@ -75,7 +75,7 @@
         </p>
       </div>
       <div
-        class="space-y-8 grid grid-cols-3 gap-10 md:space-y-0"
+      class="space-y-8 grid grid-cols-3 gap-10 md:space-y-0"
       >
         <div>
           <div
@@ -241,13 +241,13 @@
           Thank you for choosing our website.Our website is completely open source
           and also open to contributions. Check
           <a
-            href="https://github.com/nown1ne/exmail"
+            href="https://github.com/IshaanAdarsh/ezmail"
             class="underline underline-offset-2">github</a
           > for contribuuting. ☮
         </p>
       </div>
       <div
-        class="grid gap-16 grid-cols-2"
+      class="grid gap-16 grid-cols-2"
       >
         <div class="text-center  text-gray-400">
           <a href="https://linktr.ee/abhinavsrinivas">
@@ -262,7 +262,7 @@
           >
             <a href="https://linktr.ee/abhinavsrinivas">Abhinav Srinivas</a>
           </h3>
-          <p class="text-lg">Technical Lead</p>
+          <p class="text-lg">Lead Developer</p>
           <ul class="flex justify-center mt-4 space-x-4">
             <li class="hover:scale-125 transition">
               <a
@@ -305,7 +305,7 @@
             <img
               class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
               src="https://pbs.twimg.com/profile_images/1507937776511361028/xPkmvqLZ_400x400.jpg"
-              alt="Ishan's Avatar"
+              alt="Ishaan's Avatar"
             />
           </a>
           <h3
@@ -313,7 +313,7 @@
           >
             <a href="http://linktr.ee/IshaanAdarsh">Ishaan Adarsh</a>
           </h3>
-          <p class="text-lg">Design Lead</p>
+          <p class="text-lg">Technical Manager</p>
           <ul class="flex justify-center mt-4 space-x-4">
             <li class="hover:scale-125 transition">
               <a
