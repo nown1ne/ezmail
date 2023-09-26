@@ -35,7 +35,7 @@ If you're not comfortable with the command line, [here are tutorials using GUI t
 
 <img align="right" width="400" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
-**1.** Fork [this](https://github.com/BugBustersCommunity/website) repository.
+**1.** Fork [this](https://github.com/nown1ne/ezmail) repository.
 
 **2.** Clone your forked copy of the project.
 
@@ -57,7 +57,7 @@ cd ezmail
 
 ```
 
-git remote add upstream https://github.com/IshaanAdarsh/ezmail
+git remote add upstream https://github.com/nown1ne/ezmail
 
 ```
 

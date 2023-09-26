@@ -20,7 +20,7 @@
   <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="/" class="flex items-center">
       <img
-        src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
+        src="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
         class="h-14 inline transition md:hover:scale-150 "
         alt="Flowbite Logo"
       />
@@ -117,7 +117,7 @@
 </Trans>
 
 <footer class="mt-5 p-8 rounded-lg shadow md:px-6 md:py-8 bg-gray-900">
-  <div class="sm:flex sm:items-center sm:justify-between">
+  <div class="sm:flex">
     <a href="/" class="flex items-center mb-4 sm:mb-0">
       <img
         src="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
@@ -149,7 +149,7 @@
   <hr class="my-6  sm:mx-auto border-gray-700 lg:my-8" />
   <span class="block text-md  sm:text-center text-gray-400"
     >© 2023 <a
-      href="https://raw.githubusercontent.com/nown1ne/Email.help/main/ezmail.png"
+      href="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
       class="hover:underline">Ezmail™</a
     >. Made By <a href="https://www.github.com/nown1ne">Abhinav</a> and
     <a href="https://github.com/IshaanAdarsh">Ishaan</a>.
