@@ -1,34 +1,3 @@
-<p align="center">
-    <img src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209" alt="ezmail" width="400"/>
-</p>
-
-<h1 align="center" size = ""> About Ezmail </h1>
-
-We are excited to introduce our new email template website, designed to promote a culture of effective and efficient communication among college students. The website offers a wide range of templates for various scenarios, such as requesting information from professors, scheduling meetings, and networking with professionals.
-
-We would love for you to check out our website and let us know what you think. We are always looking for feedback and suggestions on how to improve our service.
-This repository contains the code used to create our website - "Ezmail".
-
-<hr>
-
-## 🛠️ Technology Stack
-
-<div align="left">
-
-<img src= "https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white">
-
-<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
-
-<img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
-
-<img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
-
-<img alt="Javascript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-
-<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
-
-</div>
-
 ## How to **contribute**?
 
 If you're not comfortable with the command line, [here are tutorials using GUI tools.](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop). If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
@@ -176,31 +145,3 @@ npm i
 npm run dev -- --open
 
 ```
-
-<hr>
-
-<h2 align="center"> Project Maintainers & Admins</h2> 
-<div align="center"> 
-    <a href="https://github.com/nown1ne">
-    <img src="https://avatars.githubusercontent.com/u/25835195?v=4" width=100px height=100px />
-    </a>
-    <p align="center"> Abhinav Srinivas </p>
-</div>
-<div align="center"> 
-    <a href="https://github.com/IshaanAdarsh">
-    <img src="https://avatars.githubusercontent.com/u/100434702?v=4" width=100px height=100px />
-    </a>
-    <p align="center"> Ishaan Adarsh </p>
-</div>
-
-
-
-
-<h2 align="center"> Project Contributors </h2>
-
-<div align="center">
-    <a href="https://github.com/nown1ne/ezmail/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=nown1ne/ezmail" />
-    </a>
-</div>
-
