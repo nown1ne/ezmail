@@ -22,8 +22,7 @@
         <p
           class="max-w-2xl mb-6 font-light   lg:mb-8 md:text-lg lg:text-xl  text-gray-400"
         >
-          We understand the importance of effective email communication, and that's why
-          we've created a platform that makes it easy to create, edit, and send professional emails.
+          We understand the importance of effective email communication, and that's why we've created a platform that makes it easy to create, edit, and send professional emails.
         </p>
         <a
           href="/prof"
@@ -67,9 +66,7 @@
           Designed for students
         </h2>
         <p class="  sm:text-xl  text-gray-400">
-          Our website features a library of pre-designed email templates that can be customized to fit your needs.
-          Whether you're sending emails to professors, administration, alumni, or just about anyone,
-          our templates are designed to help you communicate effectively.
+          Our website features a library of pre-designed email templates that can be customized to fit your needs. Whether you're sending emails to professors, administration, alumni, or just about anyone, our templates are designed to help you communicate effectively.
         </p>
       </div>
       <div
