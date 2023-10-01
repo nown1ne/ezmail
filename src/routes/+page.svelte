@@ -22,9 +22,7 @@
         <p
           class="max-w-2xl mb-6 font-light   lg:mb-8 md:text-lg lg:text-xl  text-gray-400"
         >
-          We understand the importance of effective email communication, and
-          that's why we've created a platform that makes it easy create, edit
-          and send professonal emails.
+          We understand the importance of effective email communication, and that's why we've created a platform that makes it easy to create, edit, and send professional emails.
         </p>
         <a
           href="/prof"
@@ -69,10 +67,7 @@
           Designed for students
         </h2>
         <p class="  sm:text-xl  text-gray-400">
-          Our website features a library of pre-designed email templates that
-          can be customized to fit your needs. Whether you're sending mails to
-          Professors, Administration, Alumni or just about anyone, our templates
-          are designed to help you communicate effectivly.
+          Our website features a library of pre-designed email templates that can be customized to fit your needs. Whether you're sending emails to professors, administration, alumni, or just about anyone, our templates are designed to help you communicate effectively.
         </p>
       </div>
       <div
@@ -98,8 +93,7 @@
           </div>
           <h3 class="mb-2 text-xl font-bold text-white">Lighting Fast</h3>
           <p class="   text-gray-400">
-            Our website is built upon the latest in web technology for
-            lightning-fast speeds while also being mobile reponsive
+            Our website is built upon the latest in web technology for lightning-fast speeds while also being mobile responsive.
           </p>
         </div>
         <div>
@@ -118,9 +112,7 @@
           </div>
           <h3 class="mb-2 text-xl font-bold text-white">Professional</h3>
           <p class="   text-gray-400">
-            Writing professional emails can make a good impression on your
-            colleagues and clients and can help you establish credibility and
-            authority in your field.
+            Writing professional emails can make a good impression on your colleagues and clients and can help you establish credibility and authority in your field.
           </p>
         </div>
         <div>
@@ -143,8 +135,7 @@
           </div>
           <h3 class="mb-2 text-xl font-bold text-white">Corporate Ready</h3>
           <p class="text-gray-400">
-            On average, 28% of work time is spent on email. Make the most of
-            that time by starting early and sending effective emails from today.
+            On average, 28% of work time is spent on email. Make the most of that time by starting early and sending effective emails from today.
           </p>
         </div>
         <div>
@@ -164,8 +155,7 @@
           </div>
           <h3 class="mb-2 text-xl font-bold text-white">Networking</h3>
           <p class="text-gray-400">
-            Email is a powerful tool to expand your professional network and
-            build long-lasting relationships with professionals in your field.
+            Email is a powerful tool to expand your professional network and build long-lasting relationships with professionals in your field.
           </p>
         </div>
         <div>
@@ -190,9 +180,7 @@
             Improved Communication
           </h3>
           <p class="text-gray-400">
-            Writing clear and concise emails will help you communicate more
-            effectively with colleagues and clients saving time and increasing
-            productivity
+            Writing clear and concise emails will help you communicate more effectively with colleagues and clients, saving time and increasing productivity.
           </p>
         </div>
         <div>
@@ -214,8 +202,7 @@
           </div>
           <h3 class="mb-2 text-xl font-bold text-white">Easy to use</h3>
           <p class="text-gray-400">
-            Our website minimizes the time taken to send emails by providing the
-            ability to edit and send emails directly.
+            Our website minimizes the time taken to send emails by providing the ability to edit and send emails directly.
           </p>
         </div>
       </div>
@@ -236,18 +223,13 @@
           Our team
         </h2>
         <p class="font-light  sm:text-xl text-gray-400">
-          We're committed to making email communication easy, and we're always
-          looking for ways to improve our platform.
+          We're committed to making email communication easy, and we're always looking for ways to improve our platform.
           <br /><br />
-          Thank you for choosing our website. Our website is completely open source
-          and also open to contributions. Check
+          Thank you for choosing our website. Our website is completely open source and also open to contributions. Check
           <a
-            href="https://github.com/nown1ne/ezmail"
-            class="underline underline-offset-2"
-          >
-            github
-          </a>
-          for contributing. ☮
+            href="https://github.com/nown1ne/exmail"
+            class="underline underline-offset-2">GitHub</a
+          > for contributing. ☮
         </p>
       </div>
       <div class="grid gap-16 grid-cols-1 sm:grid-cols-2">
