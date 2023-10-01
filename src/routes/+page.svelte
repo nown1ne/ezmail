@@ -66,13 +66,12 @@
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">
           Designed for students
         </h2>
-        <p class="  sm:text-xl  text-gray-400">
+        <p class="text-xl lg:text-lg text-gray-400">
           Our website features a library of pre-designed email templates that can be customized to fit your needs. Whether you're sending emails to professors, administration, alumni, or just about anyone, our templates are designed to help you communicate effectively.
         </p>
       </div>
-      <div
-        class="space-y-8 grid grid-cols-3 gap-10 md:space-y-0"
-      >
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      
         <div>
           <div
             class="flex justify-center items-center mb-4 w-10 h-10 rounded-full   lg:h-12 lg:w-12  bg-primary-900"
