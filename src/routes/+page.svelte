@@ -241,7 +241,7 @@
           Thank you for choosing our website. Our website is completely open source
           and also open to contributions. Check
           <a
-            href="https://github.com/IshaanAdarsh/ezmail"
+            href="https://github.com/nown1ne/ezmail"
             class="underline underline-offset-2"
           >
             github
@@ -318,7 +318,7 @@
           <ul class="flex justify-center mt-4 space-x-4">
             <li class="hover:scale-125 transition">
               <a
-                href="https://twitter.com/IshaanAdarsh"
+                href="https://twitter.com/ishaanad9"
                 class="text-[#00acee]  hover:text-white"
               >
                 <svg
