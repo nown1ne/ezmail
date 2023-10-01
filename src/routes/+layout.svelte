@@ -127,7 +127,7 @@
       />
     </a>
     <ul
-      class="px-2 flex flex-wrap items-center mb-6 text-lg underline underline-offset-2  sm:mb-0 text-gray- sm:justify-end"
+      class="px-2 flex flex-wrap items-center mb-6 text-lg underline underline-offset-2  sm:mb-0 text-gray-400 sm:justify-end"
     >
       <li>
         <a href="prof" class="mr-4 hover:underline md:mr-12 ">To Professor</a>
