@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209" alt="ezmail" width="400"/>
+    <img src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209" alt="ezmail logo" width="400"/>
 </p>
 
 <h1 align="center" size = ""> About Ezmail </h1>
@@ -14,26 +14,24 @@ This repository contains the code used to create our website - "Ezmail".
 ## 🛠️ Technology Stack
 
 <div align="left">
-
-<img src= "https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white">
-
-<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
-
-<img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
-
-<img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
-
-<img alt="Javascript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-
-<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
-
+<img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte Logo">
+    
+<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS Logo">
+    
+<img alt="HTML5 Logo" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Logo"/>
+    
+ <img alt="CSS3 Logo" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Logo"/>
+    
+  <img alt="JavaScript Logo" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript Logo"/>
+    
+ <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Logo">
 </div>
 
 ## How to **contribute**?
 
 If you're not comfortable with the command line, [here are tutorials using GUI tools.](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop). If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
 
-<img align="right" width="400" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
+<img align="right" width="400" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="Illustration of forking this repository" />
 
 **1.** Fork [this](https://github.com/nown1ne/ezmail) repository.
 
@@ -181,17 +179,18 @@ npm run dev -- --open
 
 <h2 align="center"> Project Maintainers & Admins</h2> 
 <div align="center"> 
-    <a href="https://github.com/nown1ne">
-    <img src="https://avatars.githubusercontent.com/u/25835195?v=4" width=100px height=100px />
-    </a>
-    <p align="center"> Abhinav Srinivas </p>
-</div>
-<div align="center"> 
     <a href="https://github.com/IshaanAdarsh">
-    <img src="https://avatars.githubusercontent.com/u/100434702?v=4" width=100px height=100px />
+    <img src="https://avatars.githubusercontent.com/u/100434702?v=4" width="100" height="100" alt="Ishaan Adarsh's Profile Picture" />
     </a>
     <p align="center"> Ishaan Adarsh </p>
 </div>
+<div align="center"> 
+    <a href="https://github.com/nown1ne">
+    <img src="https://avatars.githubusercontent.com/u/25835195?v=4" width="100" height="100" alt="Abhinav Srinivas's Profile Picture" />
+    </a>
+    <p align="center"> Abhinav Srinivas </p>
+</div>
+
 
 
 
@@ -199,8 +198,8 @@ npm run dev -- --open
 <h2 align="center"> Project Contributors </h2>
 
 <div align="center">
-    <a href="https://github.com/nown1ne/ezmail/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=nown1ne/ezmail" />
+    <a href="https://github.com/IshaanAdarsh/ezmail/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=IshaanAdarsh/ezmail" alt="Contributors Graph for the ezmail Repository" />
     </a>
 </div>
 

@@ -19,11 +19,12 @@
 >
   <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="/" class="flex items-center">
-      <img
-        src="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
-        class="h-14 inline transition md:hover:scale-150 "
-        alt="Flowbite Logo"
-      />
+  <img
+   src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
+  class="h-14 inline transition md:hover:scale-150 "
+  alt="ezmail Logo"
+/>
+
     </a>
     <button
       on:click={toggle}
@@ -122,7 +123,7 @@
       <img
         src="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
         class="h-14"
-        alt="Flowbite Logo"
+      alt="ezmail Logo"
       />
     </a>
     <ul
