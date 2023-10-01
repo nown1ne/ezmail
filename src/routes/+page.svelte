@@ -45,10 +45,11 @@
         </a>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-        <img
-          src="https://ik.imagekit.io/n0uvizrukm2/screenshots/undraw_newspaper_re_syf5_1KjuIsjXme.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1661751080977"
-          alt="mockup"
-        />
+   <img
+  src="https://ik.imagekit.io/n0uvizrukm2/screenshots/undraw_newspaper_re_syf5_1KjuIsjXme.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1661751080977"
+  alt="Illustration of two people reading a newspaper"
+/>
+
       </div>
     </div>
   </section>
