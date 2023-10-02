@@ -9,6 +9,7 @@
   import Trans from "../components/trans.svelte";
   import { fade } from "svelte/transition";
   import { page } from "$app/stores";
+  import logo from "../assets/ezmail.png"
 </script>
 
 <body class="bg-gray-900" />
@@ -20,7 +21,7 @@
   <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="/" class="flex items-center">
   <img
-   src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
+  src={logo}
   class="h-14 inline transition md:hover:scale-150 "
   alt="ezmail Logo"
 />
@@ -156,7 +157,7 @@
   <div class="sm:flex sm:justify-between">
     <a href="/" class="flex items-center mb-4 sm:mb-0">
       <img
-        src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
+        src={logo}
         class="h-14"
       alt="ezmail Logo"
       />
