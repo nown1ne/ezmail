@@ -10,7 +10,7 @@
     }
 </script> 
 
-<div class="flex  gap-5 md:gap-10">
+<div class="flex  gap-5 md:gap-10 justify-center items-center">
 
     
     <div class="">
