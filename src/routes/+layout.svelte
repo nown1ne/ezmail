@@ -15,7 +15,7 @@
 
 <nav
   data-aos="zoom-out"
-  class=" border-gray-200 px-2 sm:px-4 py-2.5 rounded  bg-gray-900"
+  class="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-gray-900"
 >
   <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="/" class="flex items-center">
@@ -53,19 +53,21 @@
       id="navbar-default"
     >
       <ul
-        class="flex flex-col p-4 mt-4 border  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0    md:bg-gray-900  border-gray-700"
+        class="flex flex-col p-4 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0 md:bg-gray-900 border-gray-700"
       >
+        
         <li>
           <a
             href="/prof"
             class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent md:border-0  md:p-0  text-gray-400   hover:bg-gray-700 md: hover:bg-transparent"
-            >To Professor</a
-          >
+            on:click={toggle}
+            >To Professor</a>
         </li>
         <li>
           <a
             href="/admin"
             class="transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent md:border-0  md:p-0  text-gray-400   hover:bg-gray-700  md: hover:bg-transparent"
+            on:click={toggle}
             >To Administration</a
           >
         </li>
@@ -90,23 +92,58 @@
 
 {#if open === true}
   <div
-    transition:fade
-    class="absolute z-50 rounded-lg shadow-md right-10 top-10 margin-1 border shadow-primary-700  bg-gray-900 border-primary-700 text-white margin-auto"
+    class="fixed inset-0 z-50 bg-gray-900 bg-opacity-75"
     use:clickOutside
     on:outclick={toggle}
     on:click={toggle}
+    style="color: rgba(255, 255, 255, 0.9);"
   >
-    <div class="flex flex-col gap-1 justify-center content-center  text-2xl">
-      <div class="mb-2 hover:text-white text-primary-500 p-5">
+  <button
+    class="absolute top-2 right-2 p-2 rounded-full hover:bg-gray-700 focus:outline-none focus:ring focus:ring-gray-400"
+    on:click={toggle}
+  >
+    <svg
+      class="w-6 h-6 text-white"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+    {#if open === true}
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        {:else}
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16"
+      />
+      {/if}
+    </svg>
+  </button>
+    <div class="flex flex-col gap-1 justify-center content-center text-2xl" style="background-image: linear-gradient(to right, rgb(0 11 34), rgba(66, 70, 77, 0.34));">
+      <div class="mb-2 hover:text-white text-primary-100 p-5">
+         <a href="/">Home</a>
+      </div>
+      <hr>
+      <div class="mb-2 hover:text-white text-primary-100 p-5">
         <a href="/prof">To Professor</a>
       </div>
-      <div class="mb-2 hover:text-white text-primary-500 p-5">
+      <hr>
+      <div class="mb-2 hover:text-white text-primary-100 p-5">
         <a href="/admin">To Administration</a>
       </div>
-      <div class="mb-2 hover:text-white text-primary-500 p-5">
+      <hr>
+      <div class="mb-2 hover:text-white text-primary-100 p-5">
         <a href="/others">To Alumni</a>
       </div>
-      <div class="mb-1 hover:text-white text-primary-500 p-5">
+      <hr>
+      <div class="mb-1 hover:text-white text-primary-100 p-5">
         <a href="/about">About</a>
       </div>
     </div>
