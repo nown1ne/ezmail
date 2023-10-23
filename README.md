@@ -131,9 +131,6 @@ After the above setup is done follow these steps to a template
 
 `content` - the body of the email
 
-> Please note that the `content` field can only have a string value and strings can not have new lines. Add a `\n` wherever a new line is to added.
-
-> You can also join multiple strings by simply adding a plus sign ` "hello"+" world"`
 
 **4.** After doing the necessary formatting. Check the working of the changes made and ensure that everything else is also working fine by running it locally.
 
